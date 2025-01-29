@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.api.listeners.TestListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/workspace/E2EAPI/src/test/java">
+        <classes>
+            <class name="com.api.test.createUserTest">
+                <methods><include name="createUsers"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
